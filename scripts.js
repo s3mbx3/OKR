@@ -1,3 +1,8 @@
+///2
+Array.from({ length: 30 }, (_, i) => i + 1)
+    .filter(num => num % 3 === 0)
+    .forEach(num => console.log(num));
+
 ///3
 const people = {
     'Ч1': 4,
